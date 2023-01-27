@@ -4,7 +4,7 @@ Codigo apresentado em aula para a disciplina de `Técnicas de Programação I` p
 
 ## Aulas
 
-1. Datas com java I
-  - Date, Calendar, LocalDate, LocalTime e LocalDateTime;
-2. Datas com java II
-  - Period, Duration e Instan
+### 1. Datas com java I
+>Date, Calendar, LocalDate, LocalTime e LocalDateTime;
+### 2. Datas com java II
+>Period, Duration e Instan
