@@ -1,5 +1,6 @@
 package aula02;
 
+import java.time.DayOfWeek;
 import java.time.Duration;
 import java.time.Instant;
 import java.time.LocalDate;
@@ -9,6 +10,7 @@ import java.time.Period;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.temporal.ChronoUnit;
+import java.time.temporal.TemporalAdjusters;
 
 public class Main {
 
@@ -48,6 +50,28 @@ public class Main {
         System.out.println();
         System.out.println("PERIOD, DURATION AND INSTANT");
         System.out.println();
+
+        /**
+         *
+         * TemporalAdjusters
+         *
+         * firstDayOfNextYear()
+         *
+         * */
+
+
+        LocalDate dtNas = LocalDate.of(1994, 4, 23);
+
+        LocalDate firstDayOfMonth = dtNas.with(TemporalAdjusters.firstDayOfMonth());
+        LocalDate lastDay = dtNas.with(TemporalAdjusters.lastDayOfMonth());
+
+        LocalDate firstFridayAfter = dtNas.with(TemporalAdjusters.next(DayOfWeek.FRIDAY));
+
+        System.out.println("Primeiro dia do mes: " + firstDayOfMonth.getDayOfWeek());
+        System.out.println("Ultimo dia do mes: " + lastDay.getDayOfWeek());
+
+        System.out.println("Primeira sexta depois da data: " + firstFridayAfter);
+
 
         /**
          *
