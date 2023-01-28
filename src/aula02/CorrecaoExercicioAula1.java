@@ -9,8 +9,10 @@ public class CorrecaoExercicioAula1 {
 
     public static void main(String[] args) {
 
+        /**
+         * Solução Adriano Dias
+         * */
         // Exercicio 1
-
         LocalDate data = LocalDate.of(2023, 1, 27);
         System.out.println(data);
 
@@ -21,8 +23,10 @@ public class CorrecaoExercicioAula1 {
         System.out.println(dataHorario);
 
 
+        /**
+         * Solução Ailton
+         * */
         // EXERCICIO 2
-
         LocalDate diaCompra = LocalDate.now();
 
         Double divida = 64000.0D;
@@ -44,6 +48,9 @@ public class CorrecaoExercicioAula1 {
         }
 
 
+        /**
+         * Solução Ailton
+         * */
         // EXERCICIO 3
 
         // 23/04/1994
