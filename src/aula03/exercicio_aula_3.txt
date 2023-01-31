@@ -2,7 +2,7 @@
 verifica se é par;
 
 2. Escreva um método utilizando Function, que receba um número e
-retorno o Dobro daquele número;
+retorne o dobro daquele número;
 
 3. Escreva um método utilizando Consumer, para imprimir elementos
 de uma lista;
