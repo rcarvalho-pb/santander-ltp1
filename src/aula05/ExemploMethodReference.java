@@ -1,2 +1,4 @@
-package aula05;public class ExemploMethodReference {
+package aula05;
+
+public class ExemploMethodReference {
 }
